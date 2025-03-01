@@ -6,15 +6,15 @@ function shakeBall() {
     var answer = "";
 
     // The next lines is are conditionals that determine the answer based on the number given by the ball
+    // If the number is below 4 or less, the answer is positive
     if (ball <= 4) {
-        // If the number is 4 or less, the answer is positive
-        answer = "Yes, definitely!";
+        answer = "Yes definitely!";
     } else if (ball <= 8) {
         // If the number is between 5 and 8, the answer is vague or uncertain
         answer = "Ask again later.";
     } else {
         // If the number is greater than 8, the answer is negative
-        answer = "No, not at all.";
+        answer = "No, not likely.";
     }
 
     // The last line the answer in the HTML element with the id "answer"
