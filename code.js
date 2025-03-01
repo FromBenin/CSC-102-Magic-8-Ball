@@ -1,7 +1,7 @@
 /* The function below is the shakeBall() function which shakes the magic 8 ball and generates an answer based on the number the ball displays */
 function shakeBall() {
     // The variable ball generates a random number between 1 and 6 for the first ball
-    var ball = Math.ceil(Math.random() * 6);
+    var ball = Math.ceil(Math.random() * 10);
     // Initialize the answer variable
     var answer = "";
 
