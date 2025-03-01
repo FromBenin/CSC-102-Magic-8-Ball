@@ -1,15 +1,15 @@
 /* The function below is the shakeBall() function which shakes the magic 8 ball and generates an answer based on the number the ball displays */
 function shakeBall() {
-    // The first variable ball1 generates a random number between 1 and 6 for the first ball
-    var ball1 = Math.ceil(Math.random() * 6);
+    // The variable ball generates a random number between 1 and 6 for the first ball
+    var ball = Math.ceil(Math.random() * 6);
     // Initialize the answer variable
     var answer = "";
 
     // The next lines is are conditionals that determine the answer based on the number given by the ball
-    if (ball1 <= 4) {
+    if (ball <= 4) {
         // If the number is 4 or less, the answer is positive
         answer = "Yes, definitely!";
-    } else if (ball1 <= 8) {
+    } else if (ball <= 8) {
         // If the number is between 5 and 8, the answer is vague or uncertain
         answer = "Ask again later.";
     } else {
