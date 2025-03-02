@@ -2,7 +2,7 @@
 function shakeBall() {
     // The variable ball generates a random number between 1 and 6 for the first ball
     var ball = Math.ceil(Math.random() * 10);
-    // Initialize the answer variable
+    // Initializes the answer variable
     var answer = "";
 
     // The next lines is are conditionals that determine the answer based on the number given by the ball
