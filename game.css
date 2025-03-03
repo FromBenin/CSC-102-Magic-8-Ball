@@ -2,8 +2,11 @@ body {
     background-color: #434747;
 }
 
+p{
+    text-align: center;
+}
+
 img {
-    margin-left: 460px;
     border-style: solid;
 }
 
@@ -14,7 +17,6 @@ img {
 }
 
 button {
-    margin-left: 579px;
     font-family: 'Courier New', Courier, monospace;
     background-color: #d61a1a;
     border-radius: 50px;
