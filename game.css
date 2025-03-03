@@ -1,0 +1,28 @@
+body {
+    background-color: #434747;
+}
+
+img {
+    margin-left: 460px;
+    border-style: solid;
+}
+
+#answer {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    margin-left: 579px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #d61a1a;
+    border-radius: 50px;
+    color: #c2a556;
+    border-color: #cccc11;
+}
+button:hover {
+    background-color: #8a0909de;
+    color: #c7c568;
+    cursor: pointer;
+    transition-duration: .6s;
+}
