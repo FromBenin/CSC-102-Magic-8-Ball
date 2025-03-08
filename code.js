@@ -18,12 +18,12 @@ function shakeBall() {
             answer = "Ask again later.";
             break;
         } else {
-            // I will then this loop with the else statement which will execute if the number is greater than 8.
+            // I will then end this loop with the else statement which will execute if the number is greater than 8.
             answer = "No, not likely.";
             break;
         }
 }
 
-    // The last line the answer in the HTML element with the id "answer".
+    // The last line of code displays the answer in the HTML element with the id "answer".
     document.getElementById("answer").innerHTML = answer;
 }
