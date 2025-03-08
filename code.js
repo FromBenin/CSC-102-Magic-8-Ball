@@ -1,22 +1,29 @@
-/* The function below is the shakeBall() function which shakes the magic 8 ball and generates an answer based on the number the ball displays */
+/* The function below is the shakeBall() function which shakes the magic 8 ball and generates an answer based on the number the ball displays. */
 function shakeBall() {
-    // The variable ball generates a random number between 1 and 6 for the first ball
+    // The variable ball generates a random number between 1 and 6 for the first ball.
     var ball = Math.ceil(Math.random() * 10);
-    // Initializes the answer variable
+    // Initialize the answer variable.
     var answer = "";
 
-    // The next lines is are conditionals that determine the answer based on the number given by the ball
-    // If the number is below 4 or less, the answer is positive
-    if (ball <= 4) {
-        answer = "Yes definitely!";
-    } else if (ball <= 8) {
-        // If the number is between 5 and 8, the answer is vague or uncertain
-        answer = "Ask again later.";
-    } else {
-        // If the number is greater than 8, the answer is negative
-        answer = "No, not likely.";
-    }
+    // I added a while loop with an if/else if and else statement that determines the answer based on the number given by the ball.
+    while (true) {
+        // I first have to call the ball variable
+        ball;
+        // I then give the if condition, this will execute if the number is below 4 or less, the answer is positive.
+        if (ball <= 4) {
+            answer = "Yes definitely!";
+            break;
+        } else if (ball <= 8) {
+            // Now I add an else if statement which executes if the number is between 5 and 8.
+            answer = "Ask again later.";
+            break;
+        } else {
+            // I will then this loop with the else statement which will execute if the number is greater than 8.
+            answer = "No, not likely.";
+            break;
+        }
+}
 
-    // The last line the answer in the HTML element with the id "answer"
+    // The last line the answer in the HTML element with the id "answer".
     document.getElementById("answer").innerHTML = answer;
 }
