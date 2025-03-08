@@ -1,0 +1,27 @@
+<!-- 
+ Name: Nosa Erhabor
+ Date: 29 February 2025-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic 8 Ball</title>
+    <!-- The script tag is the link between html and javascript, it allows the html to call functions
+    and thru ids allows the javascript to update the html page.-->
+    <script src="code.js"></script>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    
+    <header>
+        <p><img id="ball" src="Images/magic8ball2.jpg" alt="Magic 8 Ball"></p>
+        <!-- The next line displays the answer given by the 8-ball. -->
+        <br>
+        <p id="answer"></p>
+        <br>
+        <!-- Button to shake the Magic 8 Ball. -->
+        <p><button onclick="shakeBall()">Shake the Magic 8 Ball</button></p>
+    </header>
+</body>
+</html>

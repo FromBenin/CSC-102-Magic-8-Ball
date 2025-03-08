@@ -1,0 +1,35 @@
+body {
+    background-color: #98afaf;
+    background-image: url('Images/magic.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+p{
+    text-align: center;
+}
+
+img {
+    border-style: solid;
+}
+
+#answer {
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #d61a1a;
+    border-radius: 50px;
+    color: #c2a556;
+    border-color: #cccc11;
+}
+button:hover {
+    background-color: #8a0909de;
+    color: #c7c568;
+    cursor: pointer;
+    transition-duration: .6s;
+}
